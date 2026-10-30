@@ -1,0 +1,7 @@
+   streamlit
+   SQLAlchemy
+   argon2-cffi
+   pandas
+   openpyxl
+   Pillow
+   tzdata
