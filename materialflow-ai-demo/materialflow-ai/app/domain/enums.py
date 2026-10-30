@@ -1,0 +1,36 @@
+"""Enumerações do domínio. Os valores guardados na base de dados são estes nomes."""
+
+from enum import StrEnum
+
+
+class Department(StrEnum):
+    TECNICOS_LOGISTICA = "TECNICOS_LOGISTICA"
+    COMPRAS = "COMPRAS"
+    DADOS_MESTRE = "DADOS_MESTRE"
+
+
+class RequestStatus(StrEnum):
+    RASCUNHO = "RASCUNHO"
+    PENDENTE_COMPRAS = "PENDENTE_COMPRAS"
+    PENDENTE_DADOS_MESTRE = "PENDENTE_DADOS_MESTRE"
+    DEVOLVIDO_PARA_CORRECAO = "DEVOLVIDO_PARA_CORRECAO"
+    APROVADO_PARA_SAP = "APROVADO_PARA_SAP"
+    CONCLUIDO_NO_SAP = "CONCLUIDO_NO_SAP"
+
+
+class CharacteristicSource(StrEnum):
+    DESCRICAO_ORIGINAL = "DESCRICAO_ORIGINAL"
+    FOTOGRAFIA = "FOTOGRAFIA"
+    FICHA_TECNICA = "FICHA_TECNICA"
+    INTRODUCAO_MANUAL = "INTRODUCAO_MANUAL"
+
+
+class AttachmentKind(StrEnum):
+    FOTOGRAFIA = "FOTOGRAFIA"
+    FICHA_TECNICA = "FICHA_TECNICA"
+
+
+class HistoryEvent(StrEnum):
+    CRIACAO = "CRIACAO"
+    ALTERACAO = "ALTERACAO"
+    TRANSICAO = "TRANSICAO"
