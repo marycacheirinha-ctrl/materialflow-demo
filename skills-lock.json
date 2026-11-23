@@ -91,6 +91,13 @@
       "sourceType": "github",
       "skillPath": "skills/remotion-upgrade/SKILL.md",
       "computedHash": "75895694ceb8259a296e90f1d4e92423e24eb5fa2eebc889bcc8efbc31c79d21"
+    },
+    "web-browser": {
+      "source": "mitsuhiko/agent-stuff",
+      "commit": "0865c849befd2021490679f96a8dee58c84ac857",
+      "sourceType": "github",
+      "skillPath": "skills/web-browser/SKILL.md",
+      "computedHash": "757ab4ff0e7172b89dbe5d6114128ce70d155122953bd55c3887114571c50373"
     }
   }
 }
